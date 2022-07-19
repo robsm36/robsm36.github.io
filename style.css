@@ -1,5 +1,6 @@
 #nome {
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 #perfil {
@@ -7,7 +8,8 @@
 }
 
 body {
-    background-color:#ffd60a;
+    background-color:#e8d2f0;
+    padding: 1%;
 }
 
 #resid {
@@ -36,4 +38,43 @@ body {
 
 .hab4 {
     font-size: larger;
+}
+
+#ft1 {
+    border-radius: 25px;
+    width: 180px;
+    height: 182px;
+    padding: 5px;
+    background-color: azure;
+}
+
+.divnome {
+    text-align: center;
+}
+
+.divfoto {
+    float:left;
+    height: 192px;
+}
+
+.divperfil {
+    padding-top: 15px;
+    margin-left: 200px;
+    padding-inline-start: 5px;
+
+}
+
+.divlista {
+    padding-top: 5px;
+    margin-left: 200px;
+    height: 120px;
+}
+
+#lista_hab {
+    padding-inline-start: 22px;
+}
+
+ul li:nth-child(odd) {
+    background-color: antiquewhite;
+    width:fit-content;
 }
